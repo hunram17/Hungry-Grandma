@@ -18,3 +18,4 @@ shape = SubResource("RectangleShape2D_0hol4")
 texture = ExtResource("2_epypp")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1268332046]
+zoom = Vector2(0.4, 0.4)
