@@ -6,8 +6,8 @@ extends CharacterBody2D
 @export var air_friction: float = 400.0
 # --- Jump Settings ---
 @export var jump_force: float = -1800.0
-@export var gravity_up: float = 700.0
-@export var gravity_down: float = 3200.0    # fast fall
+@export var gravity_up: float = 980
+@export var gravity_down: float = 980    # fast fall
 @export var jump_buffer_time: float = 0.12
 @export var coyote_time: float = 0.10
 @export var max_jumps: int = 2
