@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cg2f7evn0fa4j"]
+
+[ext_resource type="Script" uid="uid://l0mcdtjd3fv8" path="res://grandma.gd" id="1_r5kst"]
+[ext_resource type="Texture2D" uid="uid://1awik82wihux" path="res://CaveAssetsMaaot/Assets 1024 Cave/Square - Black.jpg" id="2_xpxl4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ko7t3"]
+radius = 119.0798
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2060949738]
+script = ExtResource("1_r5kst")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2036375771]
+shape = SubResource("CircleShape2D_ko7t3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1181226393]
+position = Vector2(10.999998, -1.0000019)
+scale = Vector2(0.41796875, 0.41796875)
+texture = ExtResource("2_xpxl4")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=141809580]

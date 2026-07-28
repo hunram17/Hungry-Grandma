@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cbdryhyp0dk83" path="res://CaveAssetsMaaot/Assets 1024 Cave/Cave - RockCombinations1.png" id="4_05x41"]
 [ext_resource type="Texture2D" uid="uid://cc8r5rqvskl5f" path="res://CaveAssetsMaaot/Assets 1024 Cave/Cave - SmallRocks.png" id="5_gqbix"]
 [ext_resource type="PackedScene" uid="uid://c2slva48kjmij" path="res://node_2d.tscn" id="6_iw27f"]
+[ext_resource type="PackedScene" uid="uid://cg2f7evn0fa4j" path="res://grandma.tscn" id="7_71pa8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oysan"]
 texture = ExtResource("1_urblq")
@@ -32510,3 +32511,5 @@ tile_set = SubResource("TileSet_2wwcf")
 
 [node name="Node2D" parent="." unique_id=504117152 instance=ExtResource("6_iw27f")]
 position = Vector2(3338, -67)
+
+[node name="Node2D2" parent="." unique_id=141809580 instance=ExtResource("7_71pa8")]
